@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Rectangle 1 */
+.rectangle--1{
+position: absolute;
+width: 1440px;
+height: 45px;
+left: 0px;
+top: 0px;
+background-color: #FFFFFF;
+}
+
+.container-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+
+.call{
+position: absolute;
+width: 128px;
+height: 18px;
+left: 182px;
+top: 13px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500px;
+font-size: 12px;
+line-height: 18px;
+color: #003412;
+text-decoration: none;
+}
+
+.support{
+position: absolute;
+width: 202px;
+height: 18px;
+left: 351px;
+top: 13px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+color: #003412;
+text-decoration: none;
+}
+
+.log-in{
+    position: absolute;
+    width: 36px;
+    height: 18px;
+    left: 1133px;
+    top: 13px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #038C33;
+    text-decoration: none;
+}
+
+
+.register{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #F9FCFE;
+    text-align: center;
+    padding-top: 5px;
+    text-decoration: none;
+    position: absolute;
+    width: 93px;
+    height: 29px;
+    left: 1188px;
+    top: 8px;
+    background: #038C33;
+    border-radius: 3.33px;
+}
+/*rectangle 1 ends*/
+
+/* Rectangle 10 */
+
+.rectangle-10{
+position: absolute;
+width: 100%;
+height: 80px;
+left: 0px;
+top: 50px;
+background: #003412;
+}
+
+.logo{
+position: absolute;
+width: 71px;
+height: 58.64px;
+left: 182px;
+top: 10px;
+}
+
+.Home{
+position: absolute;
+width: 48px;
+height: 27px;
+left: 372px;
+top: 28px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 170.9%;
+color: #038C33;
+border-style: none;
+text-decoration: none;
+}
+
+.About{
+position: absolute;
+width: 49px;
+height: 27px;
+left: 485px;
+top: 28px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 170.9%;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.Services{
+position: absolute;
+width: 68px;
+height: 27px;
+left: 599px;
+top: 28px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 170.9%;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.Instructors{
+position: absolute;
+width: 88px;
+height: 27px;
+left: 732px;
+top: 28px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 170.9%;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.Courses{
+position: absolute;
+width: 67px;
+height: 27px;
+left: 885px;
+top: 28px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 170.9%;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.bar{
+position: fixed;
+left: 940px;
+top: 90px;
+}
+
+.Blog{
+position: absolute;
+width: 36px;
+height: 27px;
+left: 1032.28px;
+top: 28px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 170.9%;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.Contact{
+position: relative;
+width: 58px;
+height: 24px;
+left: 1183px;
+top: 100px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 170.9%;
+color: #F9FCFE;
+text-decoration: none;
+position: absolute;
+width: 138px;
+height: 51px;
+left: 1143px;
+top: 16px;
+background: #038C33;
+border-radius: 5px;
+text-align: center;
+padding-top: 12px;
+}
+/*rectangle 10 ends*/
+
+.paragraph-1{
+position: absolute;
+width: 457px;
+height: 134px;
+left: 160px;
+top: 248px;
+font-family: Lato;
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 139.9%;
+color: #038C33;
+}
+
+.para-1{
+position: absolute;
+width: 405px;
+height: 72px;
+left: 160px;
+top: 397px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #1F6036;
+}
+
+.sign-in{
+    color: #8FBF26;
+    text-decoration: none;
+}
+
+.sign-up{
+    position: absolute;
+    width: 134px;
+    height: 51px;
+    left: 160px;
+    top: 470px;
+    position: absolute;
+    right: 29.85%;
+    bottom: 26.47%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 170.9%;
+    color: #F9FCFE;
+    background: #038C33;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+}
